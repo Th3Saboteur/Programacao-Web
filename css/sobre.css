@@ -1,0 +1,51 @@
+h1 {				
+	background-image: url(../img/sobre-background.jpg);
+	padding: 10px; /*Epaçamento interno*/
+}
+h2 {				
+	border-bottom: 2px solid #333333; /*Borda apenaas na parte de baixo*/
+	margin-top: 30px; /*Espaçamento interno*/
+}
+body { /*Estilização do texto do corpo*/
+	color: #333333;
+	font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
+	/*ESSE TRECHO CENTRALIZA O BODY*/
+	margin-left: auto; /*Valor definido pelo navegador conforme o espaço disponível*/				
+	margin-right: auto;					
+	width: 940px; 
+	/*O Truque é colocar tamanho fixo e margens laterais auto*/
+}
+p{
+	padding: 0 45px;
+	text-indent: 15px; /*Espaçamento do inicio do parágrafo (primeira linha)*/
+}
+figure { /*Estilização das figuras*/
+	background-color: #F2EDED;		
+	border: 1px	solid	#ccc;		
+	text-align:	center;
+	padding: 15px;
+	margin: 30px;
+}
+figcaption { /*Estilização das legendas das figuras*/	
+	font-style:	italic;
+	margin-top: 10px; 
+}
+#centro-distribuicao { /*Estilização aplicada apenas a tag com o id*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+}
+#rodape	{	
+	color: #777;			
+	margin: 30px 0;				
+	padding: 30px 0;
+}
+#rodape img	{ /*Estilização aplicada apenas a sub-tag da tag com o id (seletor decendente)*/
+	margin-right: 30px;			
+	vertical-align:	middle;					
+	width: 94px;
+}
+#familia-pelho	{
+	float:	right; /*"float" é uma propriedade que permite tirar elemento do fluxo vertical*/							
+	margin: 0 0 10px 10px;
+}
